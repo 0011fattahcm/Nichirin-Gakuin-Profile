@@ -1,16 +1,64 @@
-# React + Vite
+# Nichirin Gakuin Centerindo - Company Profile Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Access the live website:  
+ 🌐 **[https://nichiringakuin.com](https://nichiringakuin.com)**
 
-Currently, two official plugins are available:
+**Nichirin Gakuin Centerindo** is a professional company profile website built with **React.js** and **TailwindCSS**, representing a Japanese language and skill training center in Indonesia.  
+The website presents an elegant and bilingual experience (Indonesian, English, and Japanese), highlighting Nichirin’s vision to bridge Indonesian talent with Japanese industries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧱 System Overview
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This platform showcases Nichirin Gakuin Centerindo’s identity, programs, and partnerships.  
+It serves as both an informational and promotional site for trainees, partners, and companies.  
+Built using **React** for a smooth, modern interface and integrated with **PHP mail API** for direct contact without requiring authentication.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Core Features
+
+- 🏠 **Home Page** — Dynamic hero slider with bilingual text and background animation.
+- 🌏 **Multi-language Support** — Full translation in Indonesian, English, and Japanese.
+- 🏫 **About & Vision Section** — Overview of the institution, philosophy, and activities.
+- 📚 **Programs Section** — Lists of training courses, including Tokutei Ginou preparation and cultural training.
+- 🖼️ **Gallery** — Photo collections of training, cultural events, and exchange programs.
+- 📞 **Contact Form** — Integrated PHP backend for sending inquiries directly to Nichirin’s email.
+- 📱 **Responsive Design** — Optimized layout for mobile, tablet, and desktop.
+- ⚡ **Smooth Animation** — Fade-up and motion effects using AOS and Framer Motion.
+
+---
+
+## 🧩 Technology Stack
+
+| Layer                      | Technology                      |
+| -------------------------- | ------------------------------- |
+| **Frontend**               | React.js (Vite)                 |
+| **Styling**                | TailwindCSS                     |
+| **Animation**              | Framer Motion, AOS              |
+| **Backend (Contact Form)** | PHP Mail                        |
+| **Language Management**    | Context API / Custom Hook       |
+| **Deployment**             | Hostinger Shared Hosting        |
+| **Assets**                 | Local images, video backgrounds |
+
+---
+
+## 📦 Project Structure
+
+```
+📦 nichirin-gakuin-centerindo
+ ┣ 📁 public/                 # Static assets (logo, images, etc.)
+ ┣ 📁 src/
+ ┃ ┣ 📁 components/           # Reusable components (Navbar, Footer, Hero, etc.)
+ ┃ ┣ 📁 pages/                # Page components (Home, About, Contact, etc.)
+ ┃ ┣ 📁 context/              # Language context (EN/ID/JP)
+ ┃ ┣ 📄 App.jsx               # Main application component
+ ┃ ┣ 📄 main.jsx              # Entry file for React DOM
+ ┗ 📄 tailwind.config.js      # Tailwind configuration
+```
+
+---
+
+## 🏷️ Keywords
+
+`React` `TailwindCSS` `PHP Mail` `Company Profile` `Nichirin` `Multilingual Website` `JECA` `Education` `Japan Training Center`
